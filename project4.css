@@ -1,0 +1,32 @@
+.container {
+    margin-top: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    max-width: 500px;
+}
+button {
+    background-color: lightblue;
+    color: black;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    margin: 2rem 0.25rem;
+    font-size: 24px;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+}
+
+.facts {
+    background-color: lightblue;
+    font-family: papyrus;
+}
+
+#textInput {
+    border-color: blue;
+}

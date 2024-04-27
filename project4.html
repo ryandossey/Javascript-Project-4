@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="project4.css">
+    <title>Project 4</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Writing Motivator</h1>
+        <p id="directions">Every 50 words written will generate a new cute animal picture.</p>
+        <p>New Picture of a     <select id="animalType">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+        </select> every     <select id="wordLimit">
+            <option value="50">50</option>
+            <option value="100">100</option>
+            <option value="200">200</option>
+            <option value="500">500</option>
+        </select> words</p>
+        <textarea id="textInput" rows="4" cols="50"></textarea>
+        <p id="wordCount">Word count: 0</p>
+        <img id="animalImage" src="http://via.placeholder.com/480x360">
+    </div>
+
+    <div class="facts">
+        <h1>Fun Facts</h1>
+        <p id="funFact">Select an animal type to see a fun fact!</p>
+
+
+    </div>
+
+    <script src="project4.js"></script>
+    
+</body>
+
+</html>
